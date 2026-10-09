@@ -1,0 +1,36 @@
+{
+  "units": {
+    "matriz": {
+      "name": "João 23 (Matriz)",
+      "address": "João 23",
+      "phone": "+55 (85) 99855-2332",
+      "whatsapp": "5585998552332",
+      "mapEmbedUrl": "https://www.google.com/maps/place/TORTELLI+PIZZARIA/@-3.7683288,-38.5828108,17z/data=!3m1!4b1!4m6!3m5!1s0x7c74d4be0087b43:0xc3a2258238858295!8m2!3d-3.7683288!4d-38.5828108!16s%2Fg%2F11qm38vx7d?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "hours": [
+        "Segunda a Domingo: 18h00 às 23h00"
+      ],
+      "description": "Nossa matriz oferece um ambiente rústico e acolhedor, ideal para famílias e encontros, com forno a lenha tradicional e atendimento caloroso."
+    },
+    "filial": {
+      "name": "Araturi (Filial)",
+      "address": "Araturi",
+      "phone": "+55 (85) 98704-1925",
+      "whatsapp": "5585987041925",
+      "mapEmbedUrl": "https://www.google.com/maps?vet=10CAAQoqAOahcKEwjwuIGs26uXAxUAAAAAHQAAAAAQDQ..i&channel=fs&client=ubuntu-sn&udm&fvr=1&pvq=Cg0vZy8xMXNwcmp2aDlzIhcKEXRvcnRlbGxpIHBpenphcmlhEAIYAw&lqi=ChF0b3J0ZWxsaSBwaXp6YXJpYUi4-rT41riAgAhaGRAAEAEYASIRdG9ydGVsbGkgcGl6emFyaWGSARBwaXp6YV9yZXN0YXVyYW50mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxS1NGVXpWbTVYUmtVMVkwVTVWVnBHVWtKaGJsSkpaRlp3ZDAweFJSQUL6AQQIABAV&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x7c74d916441e87b:0xbca1c77af9d0f1f2",
+      "hours": [
+        "Segunda a Domingo: 18h30 às 23h00"
+      ],
+      "description": "Unidade moderna e aconchegante, com espaço exclusivo para retirada rápida de pedidos e entrega expressa."
+    }
+  },
+  "appLinks": {
+    "appStore": "#",
+    "googlePlay": "#",
+    "webApp": "https://app.anota.ai/m/azyHmKwww"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/tortellipizzaria/",
+    "facebook": "https://www.facebook.com/p/Tortelli-Pizzaria-e-Delivery-100083340062495/",
+    "whatsapp": "https://wa.me/5585998552332"
+  }
+}

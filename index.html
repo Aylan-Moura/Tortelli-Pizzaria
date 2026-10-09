@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria Tortelli | Tradição e Sabor Artesanal</title>
+  <meta name="description"
+    content="Pizzaria Tortelli - As melhores pizzas artesanais em Fortaleza. Unidades João 23 e Araturi. Peça pelo cardápio online Anota AI e receba em casa ou retire no local.">
+
+  <!-- Open Graph / SEO Local Meta -->
+  <meta property="og:title" content="Pizzaria Tortelli | Peça pelo Cardápio Online">
+  <meta property="og:description"
+    content="Tradição, massa fermentada naturalmente e ingredientes selecionados. Unidades João 23 e Araturi - Peça pelo cardápio online!">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            tortelli: {
+              red: '#dc2626',      /* Vermelho italiano / bandeira */
+              darkRed: '#991b1b',
+              green: '#16a34a',    /* Verde italiano / bandeira */
+              darkGreen: '#14532d', /* Verde escuro para botões de pedido */
+              gold: '#f59e0b',
+              dark: '#09090b'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Pizzaria Tortelli",
+    "image": "fouders/WhatsApp Image 2026-10-08 at 17.29.55.jpeg",
+    "currenciesAccepted": "BRL",
+    "priceRange": "$$",
+    "servesCuisine": "Pizza",
+    "telephone": "+5585998552332",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "João 23",
+      "addressLocality": "Fortaleza",
+      "addressRegion": "CE",
+      "postalCode": "60000-000",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
+</head>
+
+<body class="bg-black text-zinc-100 antialiased font-sans selection:bg-tortelli-red selection:text-white">
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-40 bg-black/95 backdrop-blur border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img src="fouders/792459367_18242988733311820_5265244504918358551_n.jpg" alt="Logo Tortelli"
+          class="h-12 w-12 rounded-full border border-zinc-700">
+        <span class="text-xl font-bold tracking-wider text-white uppercase hidden sm:block">Pizzaria Tortelli</span>
+      </div>
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-zinc-300">
+        <a href="#sobre" class="hover:text-tortelli-red transition">A Pizzaria</a>
+        <a href="#unidades" class="hover:text-tortelli-red transition">Unidades</a>
+        <a href="#cardapio" class="hover:text-tortelli-red transition">Cardápio Online</a>
+        <a href="#contato" class="hover:text-tortelli-red transition">Contato</a>
+      </nav>
+      <div class="hidden md:flex items-center space-x-4">
+        <a href="https://www.instagram.com/tortellipizzaria/" target="_blank" class="text-zinc-300 hover:text-tortelli-red transition">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.173.055 1.83.249 2.257.416.566.223.97.491 1.393.914.423.423.69.827.914 1.393.167.427.361 1.084.416 2.257.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.055 1.173-.249 1.83-.416 2.257-.223.566-.491.97-.914 1.393-.423.423-.827.69-1.393.914-.427.167-1.084.361-2.257.416-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.173-.055-1.83-.249-2.257-.416-.566-.223-.97-.491-1.393-.914-.423-.423-.69-.827-.914-1.393-.167-.427-.361-1.084-.416-2.257-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.055-1.173.249-1.83.416-2.257.223-.566.491-.97.914-1.393.423-.423.827-.69 1.393-.914.427-.167 1.084-.361 2.257-.416.567-.058 1.646-.07 4.85-.07m0-2.163c-3.259 0-3.667.014-4.947.072-1.277.058-2.15.258-2.916.559-.79.306-1.458.718-2.126 1.385-.668.667-1.08 1.335-1.385 2.126-.301.766-.501 1.639-.559 2.916-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.058 1.277.258 2.15.559 2.916.306.79.718 1.458 1.385 2.126.667.668 1.335 1.08 2.126 1.385.766.301 1.639.501 2.916.559 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c1.277-.058 2.15-.258 2.916-.559.79-.306 1.458-.718 2.126-1.385.667-.668 1.08-1.335 1.385-2.126.301-.766.501-1.639.559-2.916.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.058-1.277-.258-2.15-.559-2.916-.306-.79-.718-1.458-1.385-2.126-.668-.667-1.335-1.08-2.126-1.385-.766-.301-1.639-.501-2.916-.559C15.667.014 15.259 0 12 0zM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        </a>
+        <a href="https://wa.me/5585998552332" target="_blank" title="WhatsApp" class="text-zinc-300 hover:text-tortelli-green transition">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.124-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </a>
+      </div>
+      <div>
+        <button id="header-order-btn" data-track="order_click" data-location="header"
+          class="bg-tortelli-green hover:bg-tortelli-darkGreen text-white font-bold px-5 py-2.5 rounded-full shadow-lg transition transform hover:scale-105 inline-flex items-center space-x-2">
+          <span>Fazer Pedido Online</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative min-h-[85vh] flex items-center justify-center bg-black overflow-hidden">
+    <div class="absolute inset-0 z-0 opacity-50">
+      <img src="fouders/WhatsApp Image 2026-10-08 at 17.29.55.jpeg" alt="Pizza artesanal"
+        class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent"></div>
+    </div>
+    <div class="relative z-10 max-w-4xl mx-auto px-4 text-center py-20">
+      <img src="fouders/792459367_18242988733311820_5265244504918358551_n.jpg" alt="Logo Tortelli"
+        class="mx-auto h-32 w-32 rounded-full border-4 border-tortelli-red mb-6 shadow-2xl">
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6">
+        A Verdadeira Pizza Italiana na sua <span class="text-tortelli-red">Mesa</span>
+      </h1>
+      <p class="text-lg sm:text-xl text-zinc-300 max-w-2xl mx-auto mb-10">
+        Massa fermentada por 48 horas, ingredientes selecionados e muito carinho em cada fatia. Peça agora mesmo pelo
+        nosso cardápio online para entrega rápida ou retirada nas unidades João 23 e Araturi.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <button id="hero-order-btn" data-track="order_click" data-location="hero"
+          class="w-full sm:w-auto bg-tortelli-green hover:bg-tortelli-darkGreen text-white font-extrabold text-lg px-8 py-4 rounded-xl shadow-xl transition transform hover:scale-105 inline-flex items-center justify-center space-x-3">
+          <span>Fazer Pedido Online</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </button>
+        <a href="#unidades"
+          class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-semibold text-lg px-8 py-4 rounded-xl transition border border-white/20 inline-flex items-center justify-center">
+          Ver Unidades & Horários
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Institutional Section -->
+  <section id="sobre" class="py-24 bg-black">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl sm:text-4xl font-black text-white mb-6">Nossa História & O Segredo da Massa</h2>
+          <p class="text-zinc-300 text-base sm:text-lg mb-6 leading-relaxed">
+            Fundada com a missão de trazer o verdadeiro sabor napolitano adaptado ao paladar brasileiro, a Pizzaria
+            Tortelli combina técnicas artesanais tradicionais com os melhores ingredientes frescos da estação.
+          </p>
+          <ul class="space-y-4 text-zinc-300">
+            <li class="flex items-start space-x-3">
+              <span class="text-tortelli-green font-bold text-xl">✓</span>
+              <span><strong>Fermentação Natural Lenta:</strong> Massa descansada por no mínimo 48 horas para leveza e
+                digestibilidade perfeitas.</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <span class="text-tortelli-green font-bold text-xl">✓</span>
+              <span><strong>Ingredientes Selecionados:</strong> Seleção rigorosa de frios, embutidos e queijos de alta qualidade para um sabor inconfundível.</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <span class="text-tortelli-green font-bold text-xl">✓</span>
+              <span><strong>Preparo Artesanal:</strong> Cada pizza é aberta à mão e montada com capricho e atenção a cada detalhe.</span>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="relative rounded-2xl overflow-hidden shadow-2xl border border-zinc-800 aspect-video lg:aspect-square">
+          <img src="fouders/WhatsApp Image 2026-10-08 at 17.29.56.jpeg" alt="Ambiente Pizzaria Tortelli"
+            class="w-full h-full object-cover" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Units Section -->
+  <section id="unidades" class="py-24 bg-zinc-900 border-t border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-black text-white mb-4">Nossas Unidades</h2>
+        <p class="text-zinc-400 text-lg">Visite nossas unidades João 23 e Araturi e conheça espaços acolhedores
+          preparados para receber você e sua família.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- João 23 -->
+        <div class="bg-black border border-zinc-800 rounded-2xl p-8 shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-2xl font-bold text-white">João 23</h3>
+              <a href="https://www.google.com/maps/place/TORTELLI+PIZZARIA/@-3.7683288,-38.5828108,17z/data=!3m1!4b1!4m6!3m5!1s0x7c74d4be0087b43:0xc3a2258238858295!8m2!3d-3.7683288!4d-38.5828108!16s%2Fg%2F11qm38vx7d?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" class="text-blue-800 hover:underline text-sm font-semibold flex items-center space-x-1">
+                <span>Ver no Google Maps</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+              </a>
+            </div>
+            <div class="mb-6 rounded-xl overflow-hidden border border-zinc-700 h-64">
+              <img src="fouders/tortellijoaojpg" alt="Unidade João 23 - Pizzaria Tortelli" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-3 pt-4 border-t border-zinc-800">
+            <a href="https://wa.me/5585998552332" target="_blank" rel="noopener" data-track="whatsapp_click"
+              data-unit="joao23"
+              class="flex-1 bg-emerald-700 hover:bg-emerald-800 text-white font-semibold py-3 px-4 rounded-xl text-center transition flex items-center justify-center space-x-2">
+              <span>WhatsApp João 23</span>
+            </a>
+            <a href="https://app.anota.ai/m/azyHmKwww" target="_blank" rel="noopener" data-track="order_click"
+              data-unit="joao23"
+              class="flex-1 bg-tortelli-green hover:bg-tortelli-darkGreen text-white font-semibold py-3 px-4 rounded-xl text-center transition flex items-center justify-center">
+              Pedir Online (João 23)
+            </a>
+          </div>
+        </div>
+
+        <!-- Araturi -->
+        <div class="bg-black border border-zinc-800 rounded-2xl p-8 shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-2xl font-bold text-white">Araturi</h3>
+              <a href="https://www.google.com/maps?vet=10CAAQoqAOahcKEwjwuIGs26uXAxUAAAAAHQAAAAAQDQ..i&channel=fs&client=ubuntu-sn&udm&fvr=1&pvq=Cg0vZy8xMXNwcmp2aDlzIhcKEXRvcnRlbGxpIHBpenphcmlhEAIYAw&lqi=ChF0b3J0ZWxsaSBwaXp6YXJpYUi4-rT41riAgAhaGRAAEAEYASIRdG9ydGVsbGkgcGl6emFyaWGSARBwaXp6YV9yZXN0YXVyYW50mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxS1NGVXpWbTVYUmtVMVkwVTVWVnBHVWtKaGJsSkpaRlp3ZDAweFJSQUL6AQQIABAV&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x7c74d916441e87b:0xbca1c77af9d0f1f2" target="_blank" rel="noopener" class="text-blue-800 hover:underline text-sm font-semibold flex items-center space-x-1">
+                <span>Ver no Google Maps</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+              </a>
+            </div>
+            <div class="mb-6 rounded-xl overflow-hidden border border-zinc-700 h-64">
+              <img src="fouders/tortelliaraturi.jpg" alt="Unidade Araturi - Pizzaria Tortelli" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-3 pt-4 border-t border-zinc-800">
+            <a href="https://wa.me/5585987041925" target="_blank" rel="noopener" data-track="whatsapp_click"
+              data-unit="araturi"
+              class="flex-1 bg-emerald-700 hover:bg-emerald-800 text-white font-semibold py-3 px-4 rounded-xl text-center transition flex items-center justify-center space-x-2">
+              <span>WhatsApp Araturi</span>
+            </a>
+            <a href="https://pedido.anota.ai/login/?access_token=eyJhbGciOiJIUzI1NiJ9.eyJpZGNsaWVudCI6IjY0MmUxODYwYzkwN2RmMDAxOWI4ZTZhYSIsImlkcGFnZSI6IjYxZGMzYjZhYmExNGI5MDAyMzY0NWEyMiIsImxpbmtfYWNjZXNzZWQiOmZhbHNlLCJ3aGF0c2FwcCI6dHJ1ZX0.MDjhwNRYPv-oyS6vGVdkFImsZpjb3f44NIUZwUeMvJ4&from=whats" target="_blank" rel="noopener" data-track="order_click"
+              data-unit="araturi"
+              class="flex-1 bg-tortelli-green hover:bg-tortelli-darkGreen text-white font-semibold py-3 px-4 rounded-xl text-center transition flex items-center justify-center">
+              Pedir Online (Araturi)
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Download Banner / CTA Section -->
+  <section id="cardapio"
+    class="py-20 bg-gradient-to-r from-tortelli-red via-tortelli-red/80 to-tortelli-green text-white">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h2 class="text-3xl sm:text-5xl font-black mb-6">Peça Pelo Nosso Cardápio Online</h2>
+      <p class="text-lg sm:text-xl text-zinc-100 max-w-2xl mx-auto mb-10">
+        Escolha sua unidade preferida e monte seu pedido com facilidade.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <button id="cta-joao23-btn" data-track="order_click" data-unit="joao23_cta"
+          class="bg-black hover:bg-zinc-900 text-white font-bold px-6 py-3.5 rounded-xl transition flex items-center space-x-3 border border-tortelli-red shadow-lg">
+          <span class="text-xl">🍕</span>
+          <div class="text-left">
+            <div class="text-[10px] uppercase text-tortelli-red">Pedir na</div>
+            <div class="text-sm font-bold">Unidade João 23</div>
+          </div>
+        </button>
+        <button id="cta-araturi-btn" data-track="order_click" data-unit="araturi_cta"
+          class="bg-black hover:bg-zinc-900 text-white font-bold px-6 py-3.5 rounded-xl transition flex items-center space-x-3 border border-tortelli-green shadow-lg">
+          <span class="text-xl">🍕</span>
+          <div class="text-left">
+            <div class="text-[10px] uppercase text-tortelli-green">Pedir na</div>
+            <div class="text-sm font-bold">Unidade Araturi</div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contato" class="bg-black border-t border-zinc-800 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+      <div class="text-center md:text-left">
+        <img src="fouders/792459367_18242988733311820_5265244504918358551_n.jpg" alt="Logo Tortelli"
+          class="mx-auto md:mx-0 h-16 w-16 rounded-full border-2 border-tortelli-red mb-3 shadow-lg">
+        <p class="text-zinc-400 text-sm mt-2">© 2026 Pizzaria Tortelli. Todos os direitos reservados.</p>
+        <p class="text-zinc-500 text-xs mt-1">Desenvolvido com carinho para servir você melhor.</p>
+      </div>
+      <div class="flex items-center space-x-6 text-zinc-400 text-sm">
+        <a href="https://www.instagram.com/tortellipizzaria/" target="_blank" rel="noopener"
+          class="hover:text-tortelli-red transition">Instagram</a>
+        <a href="https://www.facebook.com/p/Tortelli-Pizzaria-e-Delivery-100083340062495/" target="_blank" rel="noopener"
+          class="hover:text-tortelli-red transition">Facebook</a>
+        <a href="#unidades" class="hover:text-tortelli-red transition">Unidades</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Floating CTA -->
+  <div
+    class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-black/95 backdrop-blur border-t border-zinc-800 p-3 shadow-2xl flex items-center justify-between gap-3">
+    <div class="text-xs text-zinc-300">
+      <span class="font-bold block text-white">Pronto para pedir?</span>
+      <span>Acesse nosso cardápio</span>
+    </div>
+    <button id="sticky-order-btn" data-track="order_click" data-location="mobile_sticky"
+      class="bg-tortelli-green hover:bg-tortelli-darkGreen text-white font-bold text-sm px-5 py-2.5 rounded-xl shadow transition">
+      Pedir Agora
+    </button>
+  </div>
+
+  <!-- Unit Selection Modal -->
+  <div id="unit-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+    <div class="bg-black border border-zinc-800 rounded-2xl max-w-md w-full shadow-2xl overflow-hidden">
+      <div class="p-6 text-center">
+        <img src="fouders/792459367_18242988733311820_5265244504918358551_n.jpg" alt="Logo Tortelli" class="mx-auto h-20 w-20 rounded-full border-2 border-tortelli-red mb-4">
+        <h3 class="text-2xl font-bold text-white mb-2">Escolha sua Unidade</h3>
+        <p class="text-zinc-400 mb-6">Selecione a unidade para fazer seu pedido</p>
+
+        <div class="space-y-3">
+          <a href="https://app.anota.ai/m/azyHmKwww" target="_blank" rel="noopener" data-track="order_click" data-unit="joao23_modal"
+            class="flex items-center justify-center space-x-4 p-4 bg-zinc-900 border border-zinc-700 rounded-xl hover:border-tortelli-green hover:bg-zinc-800 transition w-full">
+            <div class="w-12 h-12 rounded-full bg-tortelli-green/20 flex items-center justify-center">
+              <span class="text-xl">🍕</span>
+            </div>
+            <div class="text-left">
+              <p class="font-bold text-white">João 23 (Matriz)</p>
+              <p class="text-xs text-zinc-500">Retirada e Entrega</p>
+            </div>
+            <svg class="w-5 h-5 text-tortelli-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </a>
+
+          <a href="https://pedido.anota.ai/login/?access_token=eyJhbGciOiJIUzI1NiJ9.eyJpZGNsaWVudCI6IjY0MmUxODYwYzkwN2RmMDAxOWI4ZTZhYSIsImlkcGFnZSI6IjYxZGMzYjZhYmExNGI5MDAyMzY0NWEyMiIsImxpbmtfYWNjZXNzZWQiOmZhbHNlLCJ3aGF0c2FwcCI6dHJ1ZX0.MDjhwNRYPv-oyS6vGVdkFImsZpjb3f44NIUZwUeMvJ4&from=whats" target="_blank" rel="noopener" data-track="order_click" data-unit="araturi_modal"
+            class="flex items-center justify-center space-x-4 p-4 bg-zinc-900 border border-zinc-700 rounded-xl hover:border-tortelli-green hover:bg-zinc-800 transition w-full">
+            <div class="w-12 h-12 rounded-full bg-tortelli-green/20 flex items-center justify-center">
+              <span class="text-xl">🍕</span>
+            </div>
+            <div class="text-left">
+              <p class="font-bold text-white">Araturi (Filial)</p>
+              <p class="text-xs text-zinc-500">Retirada e Entrega</p>
+            </div>
+            <svg class="w-5 h-5 text-tortelli-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <button id="modal-close" class="mt-4 text-zinc-500 hover:text-zinc-300 text-sm font-medium">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LGPD Cookie Consent Banner -->
+  <div id="cookie-banner"
+    class="fixed bottom-16 md:bottom-4 left-4 right-4 md:left-auto md:right-4 md:max-w-md z-50 bg-black border border-zinc-800 p-5 rounded-2xl shadow-2xl hidden">
+    <p class="text-sm text-zinc-300 mb-4">
+      Utilizamos cookies para melhorar sua experiência e analisar o tráfego do site. Ao continuar navegando, você
+      concorda com nossa <a href="#" class="text-tortelli-red underline">Política de Privacidade</a>.
+    </p>
+    <div class="flex justify-end space-x-3">
+      <button id="cookie-accept"
+        class="bg-tortelli-red hover:bg-tortelli-darkRed text-white text-sm font-bold px-4 py-2 rounded-lg transition">
+        Aceitar e Fechar
+      </button>
+    </div>
+  </div>
+
+  <!-- Script for Analytics & LGPD & Sticky Banner spacer -->
+  <script>
+    // LGPD Cookie Consent Logic
+    const cookieBanner = document.getElementById('cookie-banner');
+    const cookieAccept = document.getElementById('cookie-accept');
+
+    if (!localStorage.getItem('tortelli_cookie_consent')) {
+      cookieBanner.classList.remove('hidden');
+    }
+
+    cookieAccept.addEventListener('click', () => {
+      localStorage.setItem('tortelli_cookie_consent', 'true');
+      cookieBanner.classList.add('hidden');
+    });
+
+    // Unit Selection Modal Logic
+    const unitModal = document.getElementById('unit-modal');
+    const modalClose = document.getElementById('modal-close');
+    const orderButtons = document.querySelectorAll('#header-order-btn, #hero-order-btn, #cta-joao23-btn, #cta-araturi-btn, #sticky-order-btn');
+
+    function openModal() {
+      unitModal.classList.remove('hidden');
+      unitModal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      unitModal.classList.add('hidden');
+      unitModal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    orderButtons.forEach(btn => {
+      btn.addEventListener('click', openModal);
+    });
+
+    modalClose.addEventListener('click', closeModal);
+
+    // Close modal when clicking outside
+    unitModal.addEventListener('click', (e) => {
+      if (e.target === unitModal) closeModal();
+    });
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !unitModal.classList.contains('hidden')) {
+        closeModal();
+      }
+    });
+
+    // Event Tracking simulation
+    document.querySelectorAll('[data-track]').forEach(el => {
+      el.addEventListener('click', (e) => {
+        const trackType = el.getAttribute('data-track');
+        const location = el.getAttribute('data-location') || el.getAttribute('data-unit') || el.getAttribute('data-store') || 'general';
+        console.log(`[Analytics Event] type: ${trackType}, location: ${location}`);
+
+        // Push to GTM / dataLayer if available
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'conversion_click',
+          click_type: trackType,
+          click_target: location
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
